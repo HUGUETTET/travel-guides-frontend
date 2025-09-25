@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 
 const link = "https://travel-guides-backend.onrender.com";
 const API_URL = process.env.NEXT_PUBLIC_API_URL || link;;
-const res = await fetch(`${API_URL}/api/guides`);
-const data = await res.json();
+// const res = await fetch(`${API_URL}/api/guides`);
+// const data = await res.json();
 
 export default function TestCRUD() {
   const [guides, setGuides] = useState([]);
