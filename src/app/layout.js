@@ -29,6 +29,7 @@
 // }
 
 import Navbar from "../../components/NavBar";
+import TestCRUD from "../../components/TestCRUD";
 export default function Home() {
   return (
     <>
@@ -38,6 +39,7 @@ export default function Home() {
         <main className="container mx-auto p-6">
           <h1 className="text-3xl font-bold">Travel Guides</h1>
           <p className="mt-4">Tu espacio para guías mochileras.</p>
+          <TestCRUD></TestCRUD>
         </main>
       </body>
     </html>
